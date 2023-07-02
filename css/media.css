@@ -1,0 +1,1190 @@
+@media screen and (max-width: 1760px) {
+  .section1Wrapper {
+    height: 650px;
+  }
+
+  #whatsNew {
+    height: 650px;
+  }
+
+  #whatsNew .gridTempCol4 {
+    width: 90%;
+    height: 400px;
+  }
+
+  .whatsNewCard .cardTxtBox > p {
+    padding: 10px 0;
+  }
+
+  .shortCutBg #shortCutBanner .scBannerWrap {
+    width: 90%;
+  }
+
+  #focusProduct .gridTempCol6 {
+    width: 90%;
+  }
+
+  /* Best Review Ranking top5 */
+  .section4Wrapper #bestReviewTop5 {
+    width: 90%;
+  }
+
+  /* ///////////뷰티패스 앱설치////////// */
+  .section5Wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section5Wrapper ul {
+    max-width: 1280px;
+    min-height: 145px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section5Wrapper ul li {
+    width: 48%;
+  }
+
+  .section5Wrapper ul li a {
+    width: 100%;
+    min-height: 145px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+/* ------------- 1760px */
+
+@media screen and (max-width: 1280px) {
+  #only1280 {
+    display: block;
+  }
+
+  #only1280 > i.fa-bars {
+    color: #ffffff;
+    position: fixed;
+    z-index: 99999;
+    line-height: 50px;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  #mobileMenu {
+    width: 100vw;
+    height: 600vh;
+    z-index: 99999;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -1280px;
+    transition: left 0.4s ease-in-out;
+  }
+
+  #mobileMenu > i.fa-window-close {
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 70%;
+    z-index: 99999;
+    line-height: 50px;
+    font-size: 2.5rem;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  #mobileMenu .mobile_menuWrap {
+    width: 70%;
+    min-width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_gnb {
+    height: 90px;
+    line-height: 45px;
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_gnb li {
+    font-size: 0.8rem;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_gnb li a {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_gnb li a:hover {
+    background-color: #dfdfdf;
+    color: #000000;
+  }
+
+  #mobileMenu .mobile_menuWrap ul.mobile_depth1 {
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    display: grid;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li {
+    width: 100%;
+    text-align: left;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li:hover > a {
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li > a {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+    border-bottom: 1px #dfdfdf solid;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li a.red {
+    color: crimson;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li a span {
+    line-height: 50px;
+    padding-left: 30px;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li a i {
+    line-height: 50px;
+    position: absolute;
+    right: 30px;
+    transition: all 0.5s ease;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 > li a i.rotate {
+    transform: rotate(180deg);
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 li ul.mobile_depth2 {
+    width: 100%;
+    display: none;
+    /* 하위메뉴 감추기 */
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 li ul.mobile_depth2 li {
+    float: left;
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 li ul.mobile_depth2 li:hover {
+    background-color: #dfdfdf;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 li ul.mobile_depth2 li a {
+    color: #000000;
+    width: 100%;
+    font-size: 0.9rem;
+    height: 45px;
+    line-height: 45px;
+    transition: all 0.5s ease;
+  }
+
+  #mobileMenu .mobile_menuWrap .mobile_depth1 li ul.mobile_depth2 li:hover a {
+    color: #000000;
+  }
+
+  /* 탑버튼 */
+  #top_btn {
+    display: none;
+  }
+
+  /* 헤더 */
+  header {
+    height: 255px;
+    background-color: #ffffff;
+    border-bottom: #dfdfdf 1px solid;
+    box-sizing: border-box;
+  }
+
+  header .headerWrap {
+    width: 100%;
+    height: 255px;
+    background-color: #ffffff;
+    z-index: 88888;
+  }
+
+  header .navWrap {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .navWrap #globalNav {
+    display: none;
+  }
+
+  nav {
+    height: 203px;
+    background-color: #ffffff;
+  }
+
+  nav .logoWrap {
+    width: 80%;
+    height: 203px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+
+  nav .logoWrap #pcLogo {
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 110px;
+  }
+
+  nav .logoWrap #searchBox {
+    width: 440px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav #mainMenu {
+    display: none;
+    /* pc버전 메뉴 가리기 */
+  }
+
+  /* 배너 이미지 크기 변경 */
+  main #main_img .pc_main ul li.visual_0 {
+    left: 0;
+    background: url(../images/1280Banner/001.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_1 {
+    left: 100%;
+    background: url(../images/1280Banner/002.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_2 {
+    left: 200%;
+    background: url(../images/1280Banner/003.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_3 {
+    left: 300%;
+    background: url(../images/1280Banner/004.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_4 {
+    left: 400%;
+    background: url(../images/1280Banner/005.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  /* Section 1 */
+  .section1Wrapper {
+    height: 1230px;
+  }
+
+  #whatsNew {
+    width: 90%;
+    height: 1200px;
+  }
+
+  #whatsNew .articleTxtWrap {
+    width: 900px;
+  }
+
+  #whatsNew .gridTempCol4 {
+    height: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .whatsNewCard .cardTxtBox > p {
+    padding: 15px 0;
+  }
+
+  .whatsNewCard .cardImgBox > img {
+    width: 430px;
+    height: auto;
+    position: absolute;
+    transition: all 0.5s ease;
+  }
+
+  /* Section 2 */
+  .section2Wrapper {
+    margin: 0 auto;
+  }
+
+  #shopByBrand {
+    margin: 0 auto;
+  }
+
+  #shopByBrand .articleTxtWrap {
+    width: 90%;
+    height: 120px;
+  }
+
+  .shortCutBg #shortCutBanner {
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  i .shortCutBg #shortCutBanner .scBannerWrap {
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  /* Section 3 */
+  .section3Wrapper {
+    margin: 0 auto;
+    height: 1150px;
+  }
+
+  #focusProduct .articleTxtWrap h3 {
+    padding-top: 30px;
+  }
+
+  .section3Wrapper .sect3titleBg {
+    height: 150px;
+    background: url(../images/section3Bg.jpg) no-repeat center center;
+    background-size: auto 150px;
+    background-color: #000000;
+  }
+
+  .section3Wrapper .articleTxtWrap {
+    width: 90%;
+    height: 150px;
+  }
+
+  .section3Wrapper .articleTxtWrap h3 {
+    padding-top: 30px;
+  }
+
+  #focusProduct .gridTempCol6 {
+    width: 80%;
+    height: 900px;
+    margin: 50px auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #focusProduct .gridTempCol6 .gridTemCard {
+    background-size: cover;
+  }
+
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(7) {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+
+  /* //////////////리뷰 랭킹 Best Top5 ///////////*/
+  .section4Wrapper {
+    width: 85%;
+  }
+
+  .section4Wrapper #bestReviewTop5 {
+    width: 100%;
+  }
+
+  #bestReviewContents {
+    width: 100%;
+    height: 700px;
+  }
+
+  .bestReview_tab {
+    flex-direction: column;
+  }
+
+  ul.bestReview_tabnav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+
+  ul.bestReview_tabnav li {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .bestReview_tabnav li a {
+    line-height: 50px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .bestReview_tabnav li a span {
+    display: none;
+  }
+
+  .bestReview_tabcontent {
+    background-color: #ffffff;
+    width: 100%;
+    height: 700px;
+  }
+
+  /* section5  뷰티패스,앱설치 */
+  .section5Wrapper {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto 100px;
+  }
+
+  .section5Wrapper ul {
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2;
+  }
+
+  .section5Wrapper ul li {
+    width: 700px;
+    height: 194px;
+  }
+
+  .section5Wrapper ul li a {
+    width: 700px;
+    height: 194px;
+  }
+}
+/* ------------- 1280px */
+
+@media screen and (max-width: 1080px) {
+  .bestReview_tabcontent .tab {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .bestReview_tabcontent .tab .tabInnerLeft {
+    grid-column: span 2;
+  }
+
+  .bestReview_tabcontent .tab .tabInnerRight {
+    grid-column: span 2;
+  }
+
+  .tabInnerLeft .leftTxt ul li i {
+    color: crimson;
+    font-size: 1.5rem;
+    float: left;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pName {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-left: 30px;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pDetail {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1rem;
+    padding: 10px 25px 0 30px;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pPrice span {
+    color: #5a5a5a;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-right: 10px;
+    text-decoration: line-through solid #5a5a5a 1px;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pPrice {
+    position: absolute;
+    right: 35px;
+    bottom: 15%;
+    color: #111111;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    font-weight: 600;
+    padding-left: 10px;
+  }
+
+  .tabInnerLeft .leftTag {
+    font-size: 0.8rem;
+  }
+
+  .bestReview_tabcontent .tab .tabInnerRight {
+    padding: 10px 0;
+  }
+
+  .tabInnerRight .reviewBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tabInnerRight .reviewBox .reviewImgWrap span i {
+    font-size: 0.8rem;
+  }
+
+  .tabInnerRight .reviewBox .reviewTxt {
+    grid-column: 2;
+  }
+
+  .tabInnerRight .reviewBox .reviewTxt p {
+    padding-left: 8px;
+  }
+}
+/* ------------- 1120px */
+
+@media screen and (max-width: 768px) {
+  /* 배너 이미지 크기 변경 */
+  main {
+    height: 300px;
+  }
+
+  main #main_img {
+    height: 300px;
+  }
+
+  main #main_img #slide_img_wrap1 {
+    height: 300px;
+  }
+
+  main #main_img .pc_main {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  main #main_img .pc_main ul li {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 300px;
+  }
+
+  main #main_img .pc_main ul li a {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-indent: -99999px;
+  }
+
+  main #main_img .pc_main ul li.visual_0 {
+    left: 0;
+    background: url(../images/480Banner/001.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_1 {
+    left: 100%;
+    background: url(../images/480Banner/002.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_2 {
+    left: 200%;
+    background: url(../images/480Banner/003.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_3 {
+    left: 300%;
+    background: url(../images/480Banner/004.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_4 {
+    left: 400%;
+    background: url(../images/480Banner/005.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img #slide_btn {
+    width: 95px;
+  }
+
+  main #main_img #slide_btn .slide_num li.on a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_stop li.sd_stop {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_stop li.sd_start {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li.on a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li a {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Section 1 */
+  .section1Wrapper {
+    height: 1000px;
+  }
+
+  #whatsNew {
+    width: 90%;
+    height: 1000px;
+  }
+
+  #whatsNew .articleTxtWrap {
+    width: 500px;
+  }
+
+  #whatsNew .gridTempCol4 {
+    height: 800px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .whatsNewCard .cardTxtBox > p {
+    /* productName */
+    padding: 8px 0;
+  }
+
+  /* Section 3 */
+  .section3Wrapper {
+    width: 100%;
+    height: 850px;
+    background-color: #ffffff;
+  }
+
+  .section3Wrapper .sect3titleBg {
+    width: 100%;
+    height: 150px;
+    background: url(../images/section3Bg.jpg) no-repeat center center;
+    background-color: #111111;
+  }
+
+  .section3Wrapper .articleTxtWrap {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  #focusProduct {
+    max-width: 1700px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  #focusProduct .gridTempCol6 {
+    width: 80%;
+    margin: 50px auto;
+    height: 600px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  /* Focus Product 1 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(1) {
+    display: none;
+  }
+
+  /* Focus Product 2 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(2) {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  /* Focus Product 3 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(3) {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  /* Focus Product 4 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(4) {
+    display: none;
+  }
+
+  /* Focus Product 5 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(5) {
+    grid-row-start: 3;
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  /* Focus Product 6 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(6) {
+    display: none;
+  }
+
+  /* Focus Product 7 */
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(7) {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  /* 베스트 리뷰 아이템 */
+  .bestReview_tabcontent .tab {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .bestReview_tabcontent .tab .tabInnerLeft {
+    grid-column: span 3;
+  }
+
+  .bestReview_tabcontent .tab .tabInnerRight {
+    grid-column: span 2;
+  }
+
+  .tabInnerRight .reviewBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tabInnerRight .reviewBox .reviewImgWrap {
+    grid-column: span 2;
+    position: relative;
+  }
+
+  .tabInnerRight .reviewBox .reviewImgWrap .reviewImg {
+    height: 100%;
+  }
+
+  .tabInnerRight .reviewBox .reviewImgWrap span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+  }
+
+  .tabInnerRight .reviewBox .reviewImgWrap span i {
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 0 0 3px #000000;
+  }
+
+  .tabInnerRight .reviewBox .reviewTxt {
+    display: none;
+  }
+
+  /* section5  뷰티패스,앱설치 */
+  .section5Wrapper {
+    height: 400px;
+    margin: 0 auto 100px;
+  }
+
+  .section5Wrapper ul {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2;
+  }
+
+  .section5Wrapper ul li {
+    width: 600px;
+    height: 167px;
+  }
+
+  .section5Wrapper ul li a {
+    width: 600px;
+    height: 167px;
+  }
+}
+/* ------------- 768px */
+
+@media screen and (max-width: 450px) {
+  #only1280 > i.fas {
+    color: #000000;
+    position: fixed;
+    top: 85px;
+    left: 10%;
+  }
+
+  nav .logoWrap #logo #pcLogo {
+    width: 200px;
+    padding-left: 30px;
+  }
+
+  #mobileMenu > i.fa-window-close {
+    display: none;
+  }
+
+  #mobileMenu .mobile_menuWrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+
+  #topSliderWrap .topSlideCont ul > li > a {
+    font-size: 0.8rem;
+  }
+
+  nav .logoWrap #searchBox form input {
+    width: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+
+  nav .logoWrap #searchBox form button {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+  }
+
+  /* 배너이미지 사이즈 변경 */
+  main {
+    height: 500px;
+  }
+
+  main #main_img {
+    height: 500px;
+  }
+
+  main #main_img #slide_img_wrap1 {
+    height: 500px;
+  }
+
+  main #main_img .pc_main {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  main #main_img .pc_main ul li {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 500px;
+  }
+
+  main #main_img .pc_main ul li a {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: block;
+    text-indent: -99999px;
+  }
+
+  main #main_img .pc_main ul li.visual_0 {
+    left: 0;
+    background: url(../images/mo_banner/001.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_1 {
+    left: 100%;
+    background: url(../images/mo_banner/002.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_2 {
+    left: 200%;
+    background: url(../images/mo_banner/003.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_3 {
+    left: 300%;
+    background: url(../images/mo_banner/004.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img .pc_main ul li.visual_4 {
+    left: 400%;
+    background: url(../images/mo_banner/005.png) no-repeat center center;
+    cursor: pointer;
+  }
+
+  main #main_img #slide_btn {
+    width: 95px;
+    margin-top: 30px;
+  }
+
+  main #main_img #slide_btn .slide_num li.on a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_stop li.sd_stop {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_stop li.sd_start {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li.on a {
+    width: 15px;
+    height: 15px;
+  }
+
+  main #main_img #slide_btn .slide_num li a {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* what's new */
+  #whatsNew .articleTxtWrap {
+    width: 100%;
+    height: 80px;
+  }
+
+  section.section1Wrapper {
+    height: 1720px;
+  }
+
+  #whatsNew .articleTxtWrap h3 {
+    font-size: 1.1rem;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  #whatsNew .articleTxtWrap p {
+    font-size: 0.85rem;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  #whatsNew .gridTempCol4 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  #whatsNew .gridTempCol4 .whatsNewCard {
+    height: 380px;
+  }
+
+  .section2Wrapper {
+    height: 230px;
+  }
+
+  #shopByBrand .articleTxtWrap {
+    height: 60px;
+  }
+
+  #shopByBrand .articleTxtWrap h3 {
+    font-size: 1.1rem;
+  }
+
+  #shopByBrand .articleTxtWrap p {
+    font-size: 0.85rem;
+  }
+
+  #shopByBrand .shortCutBg {
+    display: none;
+  }
+
+  .section3Wrapper {
+    height: 1950px;
+    background-color: #111111;
+  }
+
+  .section3Wrapper .articleTxtWrap h3 {
+    padding-top: 43px;
+    font-size: 1.1rem;
+  }
+
+  .section3Wrapper .articleTxtWrap p {
+    font-size: 0.85rem;
+  }
+
+  #focusProduct {
+    height: 1900px;
+  }
+
+  #focusProduct .gridTempCol6 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #focusProduct .gridTempCol6 .gridTemCard {
+    width: 100%;
+    height: 230px;
+  }
+
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(1),
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(4),
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(6) {
+    display: block;
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(2),
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(3),
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(5),
+  #focusProduct .gridTempCol6 .gridTemCard:nth-child(7) {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .section4Wrapper {
+    height: 600px;
+  }
+  .section4Wrapper .articleTxtWrap {
+    height: 150px;
+  }
+
+  .section4Wrapper .articleTxtWrap h3 {
+    font-size: 1.1rem;
+  }
+
+  .section4Wrapper .articleTxtWrap p {
+    font-size: 0.85rem;
+  }
+
+  .bestReview_tabcontent {
+    height: 600px;
+  }
+
+  .bestReview_tabcontent .tab {
+    padding: 15px 0;
+    gap: 15px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .tabInnerLeft .leftTxt ul li i {
+    font-size: 1.1rem;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pName {
+    font-size: 0.85rem;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pDetail {
+    display: none;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pPrice {
+    font-size: 1rem;
+  }
+
+  .tabInnerLeft .leftTxt ul li.pPrice span {
+    font-size: 0.7rem;
+  }
+
+  .bestReview_tabcontent .tab .tabInnerLeft {
+    height: 380px;
+    grid-column: span 6;
+  }
+
+  .bestReview_tabcontent .tab .tabInnerRight {
+    display: none;
+  }
+
+  .section5Wrapper {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .section5Wrapper ul {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section5Wrapper ul li {
+    width: 100%;
+    height: 100px;
+    margin: 15px auto;
+  }
+
+  .section5Wrapper ul li a {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+  }
+
+  #main_cont6 #cont6_wrap {
+    width: 90%;
+  }
+
+  #main_cont6 #cont6_wrap .cont6_tit h3 {
+    font-size: 1.3rem;
+  }
+
+  #main_cont6 #cont6_wrap .cont6_tit p {
+    font-size: 0.85rem;
+  }
+
+  #main_cont6 #cont6_wrap .store_search {
+    width: 90%;
+  }
+
+  #main_cont6 #cont6_wrap .store_search form {
+    width: 90%;
+  }
+
+  #main_cont6 #cont6_wrap .store_search input {
+    width: 110%;
+    margin: 0 auto;
+    font-size: 0.85rem;
+  }
+
+  footer .foot {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer #footer_wrap .foot p {
+    font-size: 0.6rem;
+    color: #dfdfdf;
+    font-weight: 300;
+  }
+}
